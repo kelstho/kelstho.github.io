@@ -8,13 +8,11 @@ import weather from "../assets/images/weather.png";
 import template from "../assets/images/template_engine.png";
 import password from "../assets/images/password.png";
 import profile from "../assets/images/profile_generator.png";
+import "../assets/css/Portfolio.css";
 
 function Portfolio() {
   return (
-    <div className="container">
-      <div className="row">
-        <h2>Portfolio</h2>
-      </div>
+    <div className="container" id="portfolio-container">
       <div className="row">
         <DeployedCard
           title={projects[0].title}

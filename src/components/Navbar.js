@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../assets/css/Navbar.css";
 
 function Navbar() {
   return (
-    <div className="row">
+    <div className="nav-wrapper">
       <li className="waves-effect btn">
         <Link
           to="/"
@@ -14,7 +15,7 @@ function Navbar() {
           Bio
       </Link>
       </li>
-      <li className="waves-effect waves-light btn">
+      <li className="waves-effect btn">
         <Link
         to="/portfolio"
         className={window.location.pathname === "/portfolio"}

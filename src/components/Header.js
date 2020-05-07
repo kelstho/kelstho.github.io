@@ -1,13 +1,14 @@
 import React from "react";
 import Resume from "../assets/resume.pdf";
+import "../assets/css/Header.css";
 
 function Header() {
   return (
-    <div className="container">
+    <div className="container" id="background">
       <div className="row">
-        <h3>Kelly Thompson</h3>
+        <h3 className="center-align">Kelly Thompson</h3>
       </div>
-      <div className="row">
+      <div className="row center-align">
         <div className="col s12 m4">
           <h6>email: <a href="mailto:ksthompson48@gmail.com">ksthompson48@gmail.com</a></h6>
         </div>
@@ -18,7 +19,7 @@ function Header() {
           <h6>phone: (785) 550-9520</h6>
         </div>
       </div>
-      <div className="row">
+      <div className="row center-align">
         <div className="col s12 m4">
           <a href={Resume} target="_blank" rel="noreferrer noopener">Resume</a>
         </div>

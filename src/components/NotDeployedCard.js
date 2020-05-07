@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/css/Card.css";
 
 function NotDeployedCard(props) {
   return (
