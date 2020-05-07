@@ -1,4 +1,5 @@
 import React from "react";
+import Resume from "../assets/resume.pdf";
 
 function Header() {
   return (
@@ -19,7 +20,7 @@ function Header() {
       </div>
       <div className="row">
         <div className="col s12 m4">
-          <a href="https://docs.google.com/document/d/1q4bJ3po9KbRHmBZJxJrsRiOTP0jrL9nvRnGOvVOeS50/edit?usp=sharing" target="_blank" rel="noreferrer noopener">Resume</a>
+          <a href={Resume} target="_blank" rel="noreferrer noopener">Resume</a>
         </div>
         <div className="col s12 m4">
           <a href="https://github.com/kelstho" target="_blank" rel="noreferrer noopener">Github</a>
