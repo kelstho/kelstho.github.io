@@ -1,5 +1,11 @@
 [
   {
+    "title": "Cosmologue",
+    "description": "An application that allows users to create an account, view NASA news, upcoming cosmic events, and personal horoscope information.",
+    "deployed": "https://cosmologue.herokuapp.com/",
+    "repo": "https://github.com/aseawright1/CosmoLogue"
+  },
+  {
     "title": "Gif It To Me",
     "description": "A multiplayer, interactive board game that challenges players to write the funniest or most clever caption for a selection of animated gifs.",
     "deployed": "https://polar-savannah-75488.herokuapp.com/",
@@ -12,21 +18,15 @@
     "repo": "https://github.com/KevinNgo-Creator/Project-1"
   },
   {
+    "title": "Employee Tracker",
+    "description": "A CLI that allows users to view, track, and update various information about their company/employees.",
+    "repo": "https://github.com/kelstho/profile-generator"
+  },
+  {
     "title": "Weather Dashboard",
     "description": "Web application that shows current and future weather conditions for any user-selected city, in addition to saving previous user inputs.",
     "deployed": "https://kelstho.github.io/weather-dashboard/",
     "repo": "https://github.com/kelstho/weather-dashboard"
-  },
-  {
-    "title": "Template Engine",
-    "description": "CLI that takes in information about a team within a company and generates an HTML output containing said information.",
-    "repo": "https://github.com/kelstho/template-engine"
-  },
-  {
-    "title": "Password Generator",
-    "description": "Web application that generates a random password based on user input.",
-    "deployed": "https://kelstho.github.io/password-generator/",
-    "repo": "https://github.com/kelstho/password-generator"
   },
   {
     "title": "Profile Generator",
