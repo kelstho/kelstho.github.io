@@ -1,7 +1,7 @@
 [
   {
     "title": "Cosmologue",
-    "description": "An application that allows users to create an account, view NASA news, upcoming cosmic events, and personal horoscope information.",
+    "description": "An application that allows users to create an account, view NASA news, cosmic picture of the day, upcoming cosmic events, and personal horoscope information.",
     "deployed": "https://cosmologue.herokuapp.com/",
     "repo": "https://github.com/aseawright1/CosmoLogue"
   },
@@ -18,8 +18,8 @@
     "repo": "https://github.com/KevinNgo-Creator/Project-1"
   },
   {
-    "title": "Employee Tracker",
-    "description": "A CLI that allows users to view, track, and update various information about their company/employees.",
+    "title": "Profile Generator",
+    "description": "CLI that takes a Github username and produces a PDF template with that user's information.",
     "repo": "https://github.com/kelstho/profile-generator"
   },
   {
@@ -29,8 +29,8 @@
     "repo": "https://github.com/kelstho/weather-dashboard"
   },
   {
-    "title": "Profile Generator",
-    "description": "CLI that takes a Github username and produces a PDF template with that user's information.",
-    "repo": "https://github.com/kelstho/profile-generator"
+    "title": "Employee Tracker",
+    "description": "A CLI that allows users to view, track, and update various information about their company/employees.",
+    "repo": "https://github.com/kelstho/employee-tracker"
   }
 ]

@@ -39,7 +39,7 @@ function Portfolio() {
       <div className="row">
         <NotDeployedCard
           title={projects[3].title}
-          image={tracker}
+          image={profile}
           description={projects[3].description}
           repo={projects[3].repo}
         />
@@ -52,7 +52,7 @@ function Portfolio() {
         />
         <NotDeployedCard
           title={projects[5].title}
-          image={profile}
+          image={tracker}
           description={projects[5].description}
           repo={projects[5].repo}
         />
