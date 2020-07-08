@@ -1,5 +1,5 @@
 import React from "react";
-import Pic from "../assets/images/headshot.jpg"
+import Pic from "../assets/images/headshot.png"
 import "../assets/css/Bio.css";
 
 function Bio() {
