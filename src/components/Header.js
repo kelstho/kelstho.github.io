@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../assets/kelly_thompson_resume.pdf";
+import Resume from "../assets/Kelly_Thompson_Resume.pdf";
 import "../assets/css/Header.css";
 
 function Header() {
