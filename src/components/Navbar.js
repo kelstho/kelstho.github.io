@@ -4,25 +4,23 @@ import "../assets/css/Navbar.css";
 
 function Navbar() {
   return (
-    <div className="nav-wrapper">
-      <li className="waves-effect btn">
+    <div className="nav-wrapper center-align">
+      <button className="button" id="bio-button">
         <Link
           to="/"
-          className={
-            window.location.pathname === "/" || window.location.pathname === "/bio"
-          }
+          className={window.location.pathname === "/" || window.location.pathname === "/bio"}
         >
-          Bio
+          BIO
       </Link>
-      </li>
-      <li className="waves-effect btn">
+      </button>
+      <button className="button">
         <Link
-        to="/portfolio"
-        className={window.location.pathname === "/portfolio"}
+          to="/portfolio"
+          className={window.location.pathname === "/portfolio"}
         >
-          Portfolio
+          PORTFOLIO
         </Link>
-      </li>
+      </button>
     </div>
   );
 }
