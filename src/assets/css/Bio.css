@@ -2,12 +2,12 @@
   padding: 1px;
 }
 
-#bio {
+.content {
   font-size: 16px;
   line-height: 1.5;
 }
 
-#bio-header {
+.section-header {
   font-family: "Big Shoulders Text";
   font-size: 40px;
   color: white;
