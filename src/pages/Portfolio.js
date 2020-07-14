@@ -18,6 +18,7 @@ function Portfolio() {
           title={projects[0].title}
           image={cosmo}
           description={projects[0].description}
+          technologies={projects[0].technologies}
           deployed={projects[0].deployed}
           repo={projects[0].repo}
         />
@@ -25,6 +26,7 @@ function Portfolio() {
           title={projects[1].title}
           image={gif}
           description={projects[1].description}
+          technologies={projects[1].technologies}
           deployed={projects[1].deployed}
           repo={projects[1].repo}
         />
@@ -32,6 +34,7 @@ function Portfolio() {
           title={projects[2].title}
           image={trail}
           description={projects[2].description}
+          technologies={projects[2].technologies}
           deployed={projects[2].deployed}
           repo={projects[2].repo}
         />
@@ -41,12 +44,14 @@ function Portfolio() {
           title={projects[3].title}
           image={profile}
           description={projects[3].description}
+          technologies={projects[3].technologies}
           repo={projects[3].repo}
         />
         <DeployedCard
           title={projects[4].title}
           image={weather}
           description={projects[4].description}
+          technologies={projects[4].technologies}
           deployed={projects[4].deployed}
           repo={projects[4].repo}
         />
@@ -54,6 +59,7 @@ function Portfolio() {
           title={projects[5].title}
           image={tracker}
           description={projects[5].description}
+          technologies={projects[5].technologies}
           repo={projects[5].repo}
         />
       </div>

@@ -2,35 +2,41 @@
   {
     "title": "Cosmologue",
     "description": "An application that allows users to create an account, view NASA news, cosmic picture of the day, upcoming cosmic events, and personal horoscope information.",
+    "technologies": "MongoDB, React, Material-UI, React-MDL, Materialize, Axios, Mongoose, Node.js, Express, Express-Session, Passport, Cheerio",
     "deployed": "https://cosmologue.herokuapp.com/",
     "repo": "https://github.com/kelstho/cosmologue"
   },
   {
     "title": "Gif It To Me",
     "description": "A multiplayer, interactive board game that challenges players to write the funniest or most clever caption for a selection of animated gifs.",
+    "technologies": "MySQL, Node.js, Sequelize, Socket.io, Materialize, Express",
     "deployed": "https://polar-savannah-75488.herokuapp.com/",
     "repo": "https://github.com/kelstho/gif-it-to-me"
   },
   {
     "title": "Trail Mix",
     "description": "Web application that locates nearest cycling trails based on user input, then automatically locates the restaurants that are closest to the end of the trail.",
+    "technologies": "Materialize, jQuery",
     "deployed": "https://kelstho.github.io/trail-mix/",
     "repo": "https://github.com/kelstho/trail-mix"
   },
   {
     "title": "Profile Generator",
     "description": "CLI that takes a Github username and produces a PDF template with that user's information.",
+    "technologies": "Node.js, Axios, Inquirer, html-pdf",
     "repo": "https://github.com/kelstho/profile-generator"
   },
   {
     "title": "Weather Dashboard",
     "description": "Web application that shows current and future weather conditions for any user-selected city, in addition to saving previous user inputs.",
+    "technologies": "jQuery, Bootstrap",
     "deployed": "https://kelstho.github.io/weather-dashboard/",
     "repo": "https://github.com/kelstho/weather-dashboard"
   },
   {
     "title": "Employee Tracker",
     "description": "A CLI that allows users to view, track, and update various information about their company/employees.",
+    "technologies": "MySQL, Node.js, Inquirer",
     "repo": "https://github.com/kelstho/employee-tracker"
   }
 ]

@@ -11,7 +11,10 @@ function NotDeployedCard(props) {
         <div className="card-content">
           <h5>{props.title}</h5>
           <p>
-            {props.description}
+            <b>Description:</b> {props.description}
+            <br></br>
+            <br></br>
+            <b>Technologies:</b> {props.technologies}
           </p>
         </div>
         <div className="card-action">

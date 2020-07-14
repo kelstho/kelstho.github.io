@@ -1,3 +1,7 @@
 #portfolio-container {
   padding: 5px;
 }
+
+p {
+  line-height: 1.4;
+}

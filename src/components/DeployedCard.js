@@ -11,7 +11,10 @@ function DeployedCard(props) {
         <div className="card-content">
           <h5>{props.title}</h5>
           <p>
-            {props.description}
+            <b>Description:</b> {props.description}
+            <br></br>
+            <br></br>
+            <b>Technologies:</b> {props.technologies}
             <br></br>
             <br></br>
             <a href={props.deployed} target="_blank" rel="noreferrer noopener">Deployed Application</a>
