@@ -3,7 +3,7 @@ import "../assets/css/Icon.css";
 
 function Icon(props) {
   return (
-    <div className="col s6 m2">
+    <div className="col s6 l2">
       <div className="row">
         <img className="icon-image" alt={props.title} src={props.image} />
       </div>
