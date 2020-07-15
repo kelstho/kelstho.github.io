@@ -1,5 +1,24 @@
 import React from "react";
-import Pic from "../assets/images/headshot.png"
+import Icon from "../components/Icon";
+import Pic from "../assets/images/headshot.png";
+import html5 from "../assets/icons/html5.png";
+import css3 from "../assets/icons/css3.png";
+import js from "../assets/icons/javascript.png";
+import reactimage from "../assets/icons/react.png";
+import handlebars from "../assets/icons/handlebars.png";
+import bootstrap from "../assets/icons/bootstrap.png";
+import materialize from "../assets/icons/materialize.png";
+import materialui from "../assets/icons/materialui.png";
+import sql from "../assets/icons/sql.png";
+import mongodb from "../assets/icons/mongodb.png";
+import node from "../assets/icons/node.png";
+import jquery from "../assets/icons/jquery.png";
+import adobe from "../assets/icons/adobe.png";
+import msoffice from "../assets/icons/msoffice.png";
+import vscode from "../assets/icons/vscode.png";
+import mysql from "../assets/icons/mysql.png";
+import robo3t from "../assets/icons/robo3t.png";
+import postman from "../assets/icons/postman.png";
 import "../assets/css/Bio.css";
 
 function Bio() {
@@ -25,35 +44,91 @@ function Bio() {
         <h4 className="center-align section-header">Skills</h4>
       </div>
       <div className="row center-align">
-        <div className="col s12 m6 content">
+        <div className="row">
           <b>Languages/Libraries</b>
-          <br></br>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>React.js</li>
-            <li>Handlebars.js</li>
-            <li>Bootstrap</li>
-            <li>Materialize</li>
-            <li>Material UI</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>Node.js</li>
-            <li>MySQL</li>
-            <li>MongoDB</li>
-            <li>Express</li>
-          </ul>
         </div>
-        <div className="col s12 m6 content">
+        <div className="row">
+          <Icon
+            title="HTML5"
+            image={html5}
+          />
+          <Icon
+            title="CSS3"
+            image={css3}
+          />
+          <Icon
+            title="JavaScript"
+            image={js}
+          />
+          <Icon
+            title="React"
+            image={reactimage}
+          />
+          <Icon
+            title="Handlebars.js"
+            image={handlebars}
+          />
+          <Icon
+            title="Bootstrap 4"
+            image={bootstrap}
+          />
+        </div>
+        <div className="row">
+          <Icon
+            title="Materialize CSS"
+            image={materialize}
+          />
+          <Icon
+            title="Material UI"
+            image={materialui}
+          />
+          <Icon
+            title="SQL"
+            image={sql}
+          />
+          <Icon
+            title="MongoDB"
+            image={mongodb}
+          />
+          <Icon
+            title="Node.js"
+            image={node}
+          />
+          <Icon
+            title="jQuery"
+            image={jquery}
+          />
+        </div>
+      </div>
+      <div className="row center-align">
+        <div className="row">
           <b>Applications</b>
-          <br></br>
-          <ul>
-            <li>VS Code</li>
-            <li>Postman</li>
-            <li>Robo 3T</li>
-            <li>MySQL Workbench</li>
-            <li>Adobe Suite</li>
-          </ul>
+        </div>
+        <div className="row">
+          <Icon
+            title="Adobe Suite"
+            image={adobe}
+          />
+          <Icon
+            title="VS Code"
+            image={vscode}
+          />
+          <Icon
+            title="MySQL Workbench"
+            image={mysql}
+          />
+          <Icon
+            title="Robo 3T"
+            image={robo3t}
+          />
+          <Icon
+            title="Postman"
+            image={postman}
+          />
+          <Icon
+            title="MS Office"
+            image={msoffice}
+          />
         </div>
       </div>
     </div>
