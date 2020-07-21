@@ -43,9 +43,9 @@ function Bio() {
       <div className="row">
         <h4 className="center-align section-header">Skills</h4>
       </div>
-      <div className="row center-align">
-        <div className="row">
-          <b>Languages/Libraries</b>
+      <div className="row center-align top-icons">
+        <div className="row ll-row">
+          <p className="icon-header">Languages/Libraries</p>
         </div>
         <div className="row">
           <Icon
@@ -101,8 +101,8 @@ function Bio() {
         </div>
       </div>
       <div className="row center-align">
-        <div className="row">
-          <b>Applications</b>
+        <div className="row icon-row">
+          <p className="icon-header">Applications</p>
         </div>
         <div className="row">
           <Icon

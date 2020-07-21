@@ -17,3 +17,19 @@
 #headshot {
   padding-bottom: 15px;
 }
+
+.top-icons {
+  margin-bottom: 5px;
+}
+
+.ll-row {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.icon-header {
+
+  font-size: 18px;
+  text-decoration: underline;
+  font-weight: bold;
+}
