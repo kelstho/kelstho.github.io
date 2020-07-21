@@ -19,7 +19,7 @@ import vscode from "../assets/icons/vscode.png";
 import mysql from "../assets/icons/mysql.png";
 import robo3t from "../assets/icons/robo3t.png";
 import postman from "../assets/icons/postman.png";
-import "../assets/css/Bio.css";
+import "../assets/css/Home.css";
 
 function Bio() {
   return (

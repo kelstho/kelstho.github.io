@@ -5,12 +5,12 @@ import "../assets/css/Navbar.css";
 function Navbar() {
   return (
     <div className="nav-wrapper center-align">
-      <button className="button" id="bio-button">
+      <button className="button" id="home-button">
         <Link
           to="/"
-          className={window.location.pathname === "/" || window.location.pathname === "/bio"}
+          className={window.location.pathname === "/" || window.location.pathname === "/home"}
         >
-          BIO
+          BIO + SKILLS
       </Link>
       </button>
       <button className="button">

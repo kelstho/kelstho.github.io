@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Bio from "./pages/Bio";
+import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
@@ -15,8 +15,8 @@ function App() {
         <Navbar />
         <Header />
         <Wrapper>
-          <Route exact path="/" component={Bio} />
-          <Route exact path="/bio" component={Bio} />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
           <Route exact path="/portfolio" component={Portfolio} />
         </Wrapper>
         <Footer />

@@ -5,13 +5,13 @@
 
 .button {
   padding: 11px;
-  margin: 0px 40px 0px 40px;
+  margin: 7px 40px 5px 40px;
   background-color: lightgrey;
   border-style: solid;
   border-color: white;
   border-width: 1px;
 }
 
-#bio-button {
+#home-button {
   padding: 11px 34px 11px 33px;
 }
